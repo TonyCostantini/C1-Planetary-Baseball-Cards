@@ -44,8 +44,7 @@ h1 {
     align-items: center;
     gap: 32px;
     border-radius: 12px;
-    background: #B5B5B5;
-    font-size: 64px;
+    background-color: #B5B5B5;
     color: var(--primary-copy-color);
 }
 
@@ -79,19 +78,31 @@ h1 {
 }
 
 .little-card {
+    width: 120px;
     display: flex;
-    padding: 52px, 29px, 31px, 29px;
+    padding: 52px 29px 31px 29px;
     flex-direction: column;
     align-items: center;
     gap: 16px;
+    border-radius: 12px;
+    background-color: #B5B5B5;
 }
 
-h3 {
+#little-planet {
+    width: 96px;
+    height: 96px;
+    border-radius: 96px;
+    background-color: #FFFFFF;
+}
+
+#little-title {
     font-size: 29px;
     color: var(--primary-copy-color);
+    margin: 0 auto;
 }
 
 #little-copy {
     font-size: 20px;
     color: var(--primary-copy-color);
+    margin: 0 auto;
 }
