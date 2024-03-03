@@ -1,20 +1,64 @@
 /* Background and Header */
 :root {
     --main-bg-color: #353535;
-    --primary-h1-color: #FFFFFF;
-    --primary-h2-color: #353535;
-    --primary-p-color: #353535;
+    --primary-header-color: #FFFFFF;
+    --primary-copy-color: #353535;
     --font-family: Inter, sans-serif;
 }
 
 body {
     background-color: var(--main-bg-color);
-    color: var(--primary-h1-color);
+    color: var(--primary-header-color);
 }
 
 /* Cards */
+.column {
+    display: flex;
+    padding: 0px 80px 0px 64px;
+    align-items: flex-start;
+    gap: 48px;
+}
 
-h2 {
+.main-card {
+    display: flex;
+    padding: 59px 53px 42px 52px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    border-radius: 12px;
+    background: #B5B5B5;
     font-size: 64px;
-    color: var(--primary-h2-color);
+    color: var(--primary-copy-color);
+}
+
+#main-copy {
+    font-size: 32px;
+    color: var(--primary-copy-color);
+}
+
+.row {
+    display: flex;
+    width: 856px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 50px 48px;
+    flex-wrap: wrap;
+}
+
+.little-card {
+    display: flex;
+    padding: 52px, 29px, 31px, 29px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+h3 {
+    font-size: 29px;
+    color: var(--primary-copy-color);
+}
+
+#little-copy {
+    font-size: 20px;
+    color: var(--primary-copy-color);
 }
