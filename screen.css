@@ -9,14 +9,32 @@
 body {
     background-color: var(--main-bg-color);
     color: var(--primary-header-color);
+    margin: 0 auto;
 }
 
-/* Cards */
-.column {
+h1 {
+    font-size: 64px;
+    font-weight: 800;
     display: flex;
-    padding: 0px 80px 0px 64px;
-    align-items: flex-start;
+    width: 1440px;
+    padding: 100px 64px 64px 64px;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 1440px;
+    padding: 0px 64px 0px 64px;
     gap: 48px;
+    align-items: flex-start;
+}
+
+/* Main Card */
+.column {
+    width: 392px;
+    display: flex;
+    align-items: flex-start;
 }
 
 .main-card {
@@ -31,10 +49,25 @@ body {
     color: var(--primary-copy-color);
 }
 
+#main-title {
+    font-size: 64px;
+    margin: 0 auto;
+}
+
+#main-planet {
+    width: 287px;
+    height: 287px;
+    border-radius: 287px;
+    background-color: #FFFFFF;
+}
+
 #main-copy {
     font-size: 32px;
     color: var(--primary-copy-color);
+    margin: 0 auto;
 }
+
+/* Little Cards */
 
 .row {
     display: flex;
