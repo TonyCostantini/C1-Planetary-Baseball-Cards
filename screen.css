@@ -22,6 +22,10 @@ h1 {
     margin: 0;
 }
 
+h3 {
+    margin: 0;
+}
+
 .container {
     display: flex;
     width: 1440px;
@@ -95,10 +99,14 @@ h1 {
     background-color: #FFFFFF;
 }
 
+#paragraph {
+    text-align: center;
+}
+
 #little-title {
     font-size: 29px;
     color: var(--primary-copy-color);
-    margin: 0 auto;
+    margin-bottom: 4px;
 }
 
 #little-copy {
