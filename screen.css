@@ -20,9 +20,11 @@ h1 {
     align-items: center;
     margin: 0;
 }
+
 h3 {
     margin: 0;
 }
+
 .container {
     display: flex;
     width: 1440px;
@@ -30,12 +32,14 @@ h3 {
     gap: 48px;
     align-items: flex-start;
 }
+
 /* Main Card */
 .column {
     width: 392px;
     display: flex;
     align-items: flex-start;
 }
+
 .main-card {
     display: flex;
     padding: 59px 53px 42px 52px;
@@ -46,21 +50,31 @@ h3 {
     background-color: #B5B5B5;
     color: var(--primary-copy-color);
 }
+
 #main-title {
     font-size: 64px;
-    margin: 0 auto;
+    margin: 0 auto 18px;
 }
+
 #main-planet {
     width: 287px;
     height: 287px;
     border-radius: 287px;
     background-color: #FFFFFF;
 }
+
 #main-copy {
     font-size: 32px;
     color: var(--primary-copy-color);
     margin: 0 auto;
 }
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Little Cards */
 .row {
     display: flex;
@@ -70,6 +84,7 @@ h3 {
     gap: 50px 48px;
     flex-wrap: wrap;
 }
+
 .little-card {
     width: 120px;
     display: flex;
@@ -80,20 +95,24 @@ h3 {
     border-radius: 12px;
     background-color: #B5B5B5;
 }
+
 #little-planet {
     width: 96px;
     height: 96px;
     border-radius: 96px;
     background-color: #FFFFFF;
 }
+
 #paragraph {
     text-align: center;
 }
+
 #little-title {
     font-size: 24px;
     color: var(--primary-copy-color);
     margin-bottom: 4px;
 }
+
 #little-copy {
     font-size: 20px;
     color: var(--primary-copy-color);
